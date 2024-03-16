@@ -301,7 +301,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 20px;
   color: #7a7a7a;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
@@ -639,14 +639,11 @@ welcome
 .welcome-area {
   width: 100%;
   height: 100vh;
-  min-height: 793px;
-  background-image: url(../images/rescody-motion-graphics.svg);
+  min-height: 600px;
   background-repeat: no-repeat;
   background-position: right top;
 }
-@media (max-width:477px) {
- 
-}
+
 
 .welcome-area .header-text .left-text {
   position: relative;
@@ -680,9 +677,19 @@ welcome
     font-size: 25px;
     font-weight: 500;
 }
+.workes h1 {
+    color: #0071BC;
+    font-weight: bold;
+    font-size: 23px;
+}
+.center-heading h2 em {
+    font-style: normal;
+    color: #29ABE2;
+    font-size: 26px;
+}
 .welcome-area .header-text h1 {
     font-weight: 900;
-    font-size: 28px;
+    font-size: 25px;
     line-height: 80px;
     letter-spacing: 1px;
     margin-bottom: 30px;
@@ -822,6 +829,7 @@ promotion
 }
 .vido video{
   width: 300px;
+  height: 260px;
 }
 #promotion .left-image {
   align-self: center;

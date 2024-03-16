@@ -3,23 +3,27 @@
 	"use strict";
 
 
-	$('.owl-carousel').owlCarousel({
-		loop: true,
-		margin: 30,
-		nav: true,
-		pagination: true,
-		responsive: {
-			0: {
-				items: 1
-			},
-			600: {
-				items: 1
-			},
-			1000: {
-				items: 2
-			}
-		}
-	})
+	$(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+    pagination: true,
+    autoplay: true, // تمكين التشغيل التلقائي
+    autoplayTimeout: 3000, // الفاصل الزمني بين كل انتقال (3 ثوانٍ)
+    autoplayHoverPause: true, // توقف التشغيل التلقائي عند تحويم المؤشر فوق العرض
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 2,
+      },
+    },
+  });
+
 
 
 	$(window).scroll(function () {
