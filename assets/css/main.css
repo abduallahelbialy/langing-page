@@ -698,6 +698,42 @@ welcome
     margin-right: -30px;
 }
 }
+@media (max-width:799px) {
+  .welcome-area .header-text h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 67px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+    margin-top: -70%;
+    margin-right: -30px;
+}
+}
+@media (max-width:992px) {
+  .welcome-area .header-text h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 67px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+    margin-top: -70%;
+    margin-right: -30px;
+}
+}
+@media (max-width:1024px) {
+  .welcome-area .header-text h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 67px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+    margin-top: -70%;
+    margin-right: -30px;
+}
+}
 
 .welcome-area .header-text p {
   font-weight: 300;
