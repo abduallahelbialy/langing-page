@@ -689,11 +689,13 @@ welcome
 }
 .welcome-area .header-text h1 {
     font-weight: 900;
-    font-size: 25px;
-    line-height: 80px;
+    font-size: 20px;
+    line-height: 67px;
     letter-spacing: 1px;
     margin-bottom: 30px;
     color: #191a20;
+    margin-top: -70%;
+    margin-right: -30px;
 }
 }
 
